@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+button {
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.water {
+    position: absolute;
+    z-index: -1;
+    top: 100%;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    transition: 0.1s;
+}
